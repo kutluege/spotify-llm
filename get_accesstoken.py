@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 
 client_id = "f29ee281b7664d65ad23ecc58965e61d"
 client_secret ="55f57bd1a7c14c3ba3e05657f9f19294"
-redirect_uri = "https://spotifyllm.streamlit.app/"
+redirect_uri = "https://spotify-llm.streamlit.app/"
 
-code = "AQDtJ5Wg5qvthMRHk-TGJ4R1JZnnjJpyJEd8AxKRxHN-qcOFsQMaqm49TJYkMD9Y2L3ku9vX0aQ-SysJxpDOOhX6alwW31zgb409zOhHo6_gS0dbikr-WMcSnyMa-SlByJdJAMYdTNoKTAU3EsLvAcy_8gYbJJmsCfOzp0pn2T5SvO8W1becSTMZZH8AHUPwg5oAloyH72oDnswM"
+code = "AQBs9VDIIx1YjTPAuDghLnwWKuiBLukTclPbCfqJVK3H-VwcZ1jic3_Gg564mAbwEH7oITHantqFj8v5QCKCA5MX3obOrG10PlYg8PwoKJec2BGLd3PQbFwmhuUzUGZzea-GM1y8PWvAu6xVJ9pENo6K7Pl-eO5UdXL4yML1uu5PvBVP3NU_PqxkPDhgqGED7XfB4aBPlnSWj-hD7w"
 
 def get_access_token(code):
     url = "https://accounts.spotify.com/api/token"
