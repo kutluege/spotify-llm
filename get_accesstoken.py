@@ -8,10 +8,8 @@ from dotenv import load_dotenv
 #redirect_uri = os.getenv("REDIRECT_URI")  # Replace with your Redirect URI in .env
 
 client_id = "f29ee281b7664d65ad23ecc58965e61d"
-client_secret ="55f57bd1a7c14c3ba3e05657f9f19294"
 redirect_uri = "https://spotify-llm.streamlit.app/"
 
-code = "AQBs9VDIIx1YjTPAuDghLnwWKuiBLukTclPbCfqJVK3H-VwcZ1jic3_Gg564mAbwEH7oITHantqFj8v5QCKCA5MX3obOrG10PlYg8PwoKJec2BGLd3PQbFwmhuUzUGZzea-GM1y8PWvAu6xVJ9pENo6K7Pl-eO5UdXL4yML1uu5PvBVP3NU_PqxkPDhgqGED7XfB4aBPlnSWj-hD7w"
 
 def get_access_token(code):
     url = "https://accounts.spotify.com/api/token"
